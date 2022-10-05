@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: white;
+    font-family: sans-serif;
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: bottom;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center{
+    width: 550px;
+    background-color: rgba(0, 0, 0,0.8);
+    text-align: center;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.center .avatar img{
+    width: 125px;
+    height: 125px;
+    margin-top: 3%;
+    border-radius:70%;
+}
+.content h1{
+        color: aquamarine;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content h2{
+    font-weight: lighter;
+    width: 75%;
+    margin: 5px auto;
+}
+
+.content p{
+    width: 75%;
+    margin: 10px auto;
+}
+
+.content h3{
+    color: bisque;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.content{
+    padding: 20px;
+}
+
+div.social i{
+    padding: 10px;
+    font-size: 40px;
+    opacity: 0.9;
+    transition: 0.4;
+}
